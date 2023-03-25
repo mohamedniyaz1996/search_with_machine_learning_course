@@ -23,7 +23,7 @@ logging.basicConfig(format='%(levelname)s:%(message)s')
 from sentence_transformers import SentenceTransformer
 
 logger.info("Creating Model")
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 print(model)
 
 # NOTE: this is not a complete list of fields.  If you wish to add more, put in the appropriate XPath expression.
